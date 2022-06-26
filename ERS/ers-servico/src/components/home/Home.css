@@ -1,0 +1,176 @@
+
+.order{
+   text-align: center;
+   font-weight: bold;
+   font-size:xx-large;
+}
+
+.carousel-caption {
+  top: 40%;
+}
+
+.carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
+
+.main-btn {
+  background-color: #004e7c;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 200px; 
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #00027c;
+}
+
+.carousel-indicators .active {
+  background-color: #00027c;
+}
+
+  
+.carousel-caption {
+  top: 40%;
+}
+
+.carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  background-color: rgba(2, 2, 2, 0.11);
+}
+
+.carousel-caption p {
+  color:black
+
+}
+
+
+.carousel-item img{
+ height: 675px;
+ width: 100%;
+ background-color: black;
+}
+
+.main-title2 {
+  color: #444;
+  margin-top: 120px;
+  margin: 0 0px 45px 0;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.img-fluid3 {
+  padding-left: 40px;
+  width: 780px;
+  height: 430px;
+}
+
+.title1 {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.buttonParagrafo1{
+  margin-right: 490px;
+}
+.buttonParagrafo2{
+  margin-right: 490px;
+}
+.left0 {
+  padding-right:50px;
+}
+
+
+.left1 {
+  padding-left:50px;
+}
+
+
+.img-fluid4 {
+  width: 780px;
+  height: 530px;
+  padding-right: 40px;
+}
+
+@media(max-width: 828px) {
+
+  .img-fluid4 {
+    padding-left: 40px;
+    padding-right: 0;
+    width: 100%;
+    height: 280px;
+}
+.paragrafo {
+  width: 100%;
+}
+
+.buttonParagrafo1{
+  margin-right: 220px;
+}
+.buttonParagrafo2{
+  margin-right: 230px;
+}
+.left0 {
+  padding-top: 10px;
+  padding-right:20px;
+  padding-left: 50px;
+}
+
+
+.left1 {
+  padding-left:50px;
+}
+
+.carousel-caption .main-btn {    
+  font-size: 14px;
+}
+.carousel-caption p {
+  display: none;
+}
+.carousel-caption h2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.carousel-caption {
+  top: 45%;
+}
+
+.carousel-item img{
+  padding-top: 100px;
+  height: 575px;
+  width: 100%;
+  background-color: black;
+ }
+  }
+  @media(max-width: 548px){
+  .carousel-caption .main-btn {    
+    font-size: 12px;
+
+  }
+  .buttonParagrafo1{
+    margin-right: 170px;
+  }
+  .buttonParagrafo2{
+    margin-right: 170px;
+  }
+}
