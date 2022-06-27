@@ -42,7 +42,7 @@ const Home = () => {
                                         <img className="d-block w-100" src={Banner3} alt="Third slide" />
 
                                         <Carousel.Caption>
-                                                <h2>A nossa empresa que é formada pelos melhores profissionais</h2>
+                                                <h2>A nossa empresa é formada pelos melhores profissionais</h2>
                                                 <div className="carousel-caption d-md-block">
                                                         <Link to="/contato" className="main-btn">Entre em contato</Link>
                                                 </div>
