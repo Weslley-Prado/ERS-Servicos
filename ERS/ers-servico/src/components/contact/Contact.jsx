@@ -2,6 +2,7 @@ import './Contact.css'
 import React, { Component } from 'react'
 import axios from 'axios';
 import Contato from '../../assests/img/contato.jpg'
+import Mapa  from '../../map/Map';
 const API_PATH = 'https://ersservicos.com.br/php/index.php';
 
 
@@ -41,11 +42,18 @@ export default class Contact extends Component {
     render() {
         return (
             <sectio className="Formulario">
+
                             <img className="img-orcamento" src={Contato} alt="orcamento"/> 
+                           <div className='Mapa'>
+                            {/* <p> Contato</p> */}
+                          
+                           
+                            </div> 
 
             <div className="Form">
-               
+
                 <h3 className='contactTitulo'> Deixe sua mensagem aqui</h3>
+
                 <div>
                     <form action="/action_page.php">
                         <label>Nome</label>
@@ -74,9 +82,17 @@ export default class Contact extends Component {
                                 <div>Obrigado por sua mensagem, em breve retornaremos.</div>
                             }
                         </div>
+
+                
                     </form>
-                </div>
+
+                    
+                </div>              
+           
+
             </div>
+
+            <Mapa  />
             </sectio>
         );
     }

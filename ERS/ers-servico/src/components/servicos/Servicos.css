@@ -259,3 +259,17 @@ body {
   }
 
   }
+
+  @media(max-width: 390px) {
+
+    .buttonParagrafo9 {
+      margin-right: 240px;
+    }
+  
+    .buttonParagrafo7{
+      margin-right: 240px;
+    }
+  .container{
+    padding-top: 70px;
+  }
+    }

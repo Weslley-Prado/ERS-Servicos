@@ -12,6 +12,7 @@
 .carousel-caption h2 {
   font-size: 50px;
   margin-bottom: 0px;
+  color: rgb(224, 224, 224);
 }
 
 .carousel-caption p {
@@ -19,6 +20,7 @@
   font-weight: 300;
   margin-bottom: 100px;
   color: #FFF;
+  box-shadow: #444;
 }
 
 .main-btn {
@@ -36,7 +38,7 @@
 .main-btn:hover {
   text-decoration: none;
   color: #FFF;
-  background-color: transparent;
+  background-color:  #00027c ;
   border-color: #00027c;
 }
 
@@ -52,7 +54,6 @@
 .carousel-caption h2 {
   font-size: 50px;
   margin-bottom: 30px;
-  background-color: rgba(2, 2, 2, 0.11);
 }
 
 .carousel-caption p {
@@ -174,3 +175,17 @@
     margin-right: 170px;
   }
 }
+
+@media(max-width: 390px){
+  .carousel-caption .main-btn {    
+    font-size: 12px;
+
+  }
+  .buttonParagrafo1{
+    margin-right: 200px;
+  }
+  .buttonParagrafo2{
+    margin-right: 200px;
+  }
+}
+

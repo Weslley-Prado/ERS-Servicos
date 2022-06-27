@@ -16,9 +16,15 @@ const Footer = () => {
                     <h5 className="titleFooter">ESCRITÓRIO ERS SERVIÇOS</h5>
                     <p className="endereco">Rua: Padre Clemente Segura, 548, limoeiro, São Paulo - SP - CEP: 08051-040
 </p>
-<p className="endereco">CNPJ: 29.568.574/0001-42 - tel. (11) 3596-5101 Cel. (11) 94727-0702
+<p className="endereco"> Tel. Escritório: (11) 3596-5101 Tel. Comercial: (11) 94727-0702<br/> Tel. RH: (11) 91216-7623
+- E-mail:<a href="mailto:contato@ersservicos.com.br"> contato@ersservicos.com.br</a> <br/>
+
+CNPJ: 29.568.574/0001-42
 </p>
                    
+                            
+                               
+                          
                 </div>
                 
                 <div class="col-sm-3">
