@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner1 from '../../assests/img/banner1.jpg'
-import Banner2 from '../../assests/img/banner2.jpg'
-import Banner3 from '../../assests/img/banner3.jpg'
+import Banner1 from '../../assests/img/banner1.jpeg'
+import Banner2 from '../../assests/img/banner2.jpeg'
+import Banner3 from '../../assests/img/banner3.jpeg'
 import './Home.css'
 import { Link } from 'react-router-dom'
 import PoliticaQualidade from '../../assests/img/politicaqualidade.jpg'
@@ -20,11 +20,11 @@ const Home = () => {
                                         <img className="d-block w-100" src={Banner1} alt="First slide" />
                                         <Carousel.Caption>
                                                 <div className="frase">
-                                                        <h2>Solução de qualidade e mão de obra especializada</h2>
+                                                        <h2>Fornecemos as melhores soluções e elevados padrões de qualidade</h2>
                                                 </div>
-                                                <div className="carousel-caption d-md-block">
+                                                {/* <div className="carousel-caption d-md-block">
                                                         <Link to="/contato" className="main-btn">Entre em contato</Link>
-                                                </div>
+                                                </div> */}
                                         </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
@@ -32,25 +32,33 @@ const Home = () => {
 
 
                                         <Carousel.Caption>
-                                                <h2>Fornecemos as melhores soluções e elevados padrões de qualidade</h2>
-                                                <div className="carousel-caption d-md-block">
+                                                <h2>Soluções de qualidade e mão de obra especializada.</h2>
+                                                {/* <div className="carousel-caption d-md-block">
                                                         <Link to="/contato" className="main-btn">Entre em contato</Link>
-                                                </div>
+                                                </div> */}
                                         </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                         <img className="d-block w-100" src={Banner3} alt="Third slide" />
 
                                         <Carousel.Caption>
-                                                <h2>A nossa empresa é formada pelos melhores profissionais</h2>
-                                                <div className="carousel-caption d-md-block">
+                                                <h2>Entender as necessidades atuais e futuras de todas as partes interessadas</h2>
+                                                {/* <div className="carousel-caption d-md-block">
                                                         <Link to="/contato" className="main-btn">Entre em contato</Link>
-                                                </div>
+                                                </div> */}
                                         </Carousel.Caption>
-                                </Carousel.Item>
+                                </Carousel.Item>                                                             
                         </Carousel>
+                        
+                       
                         <div class="containerMarketing">
                                 <div class="row">
+                                        <div>
+                                        <p className='identify'>
+                                FUNDADA EM 2018, A ERS SERVIÇOS É UMA EMPRESA ESPECIALIZADA EM PRESTAÇÃO E TERCEIRIZAÇÃO DE SERVIÇOS,
+FOCADA EM FORNECER SOLUÇÕES DE GESTÃO DA QUALIDADE OPERACIONAL PARA O SETOR MANUFATUREIRO.
+                                </p>
+                                        </div>
                                         <div class="col-12">
                                                 <h3 class="main-title2">Por que nos escolher?</h3>
                                         </div>

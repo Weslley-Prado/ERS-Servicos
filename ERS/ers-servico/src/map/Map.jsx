@@ -1,4 +1,3 @@
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import React, { Component } from 'react';
 
@@ -53,13 +52,13 @@ let containerStyle = {
 // }
 
 
-if(altura == 844){
+if(altura === 844){
     containerStyle = {
         height: '300px',
       };
 }
 
-if(altura == 667){
+if(altura === 667){
     containerStyle = {
         height: '320px'
       };
