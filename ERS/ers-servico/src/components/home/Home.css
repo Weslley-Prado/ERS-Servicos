@@ -7,13 +7,14 @@
 
 .carousel-caption {
   top: 0%;
-  background-color: rgb(192, 192, 192, 0.81) !important;
+  /* background-color: rgb(192, 192, 192, 0.81) !important; */
   height: 10px;
 
 }
 
 .carousel-caption h2  {
-  font-size: 40px;
+  font-size:20px;
+  padding-top: 10px;
   padding-bottom: 20px !important;
   color: rgb(2, 0, 0)  !important;
   background-color: rgb(192, 192, 192, 0.81);
@@ -49,11 +50,11 @@
 
   
 .carousel-caption {
-  top: 40%;
+  top: 48%;
 
 }
 .carousel-caption h2 {
-  font-size: 40px;
+  font-size: 35px;
   text-align:center;
   margin-bottom: 40px;
  }
@@ -66,51 +67,73 @@
 
 
 .carousel-item img{
- height: 530px;
+ height: 605px;
  width: 100%;
  background-color: black;
 }
 
 .main-title2 {
   color: #444;
-  margin: 0 0px 45px 0;
-  font-size: 40px;
+  margin: 20px 0px 10px 0;
+  font-size: 20px;
   text-align: center;
+  color: black;
+  font-weight: bold;
+
 }
 
 .img-fluid3 {
-  padding-left: 40px;
-  width: 780px;
-  height: 430px;
+  padding-left: 0px;
+  width: 420px !important;
+  height: 230px !important;
+  margin-left: 160px;
+  padding-bottom: 30px;
+  
 }
 
 .title1 {
   font-size: 17px;
-  color: #444;
-  text-transform: uppercase;
+  color: rgb(2, 0, 0)  !important;
   font-weight: bold;
+  text-align: center;
 }
 
 .buttonParagrafo1{
   margin-right: 490px;
 }
 .buttonParagrafo2{
-  margin-right: 490px;
+  margin-left: 540px;
 }
-.left0 {
-  padding-right:50px;
+
+.line_one{
+  margin-right: 30px;
+  margin-left: 10px;
+  border: 1px solid black;
+
 }
+.line_two{
+  width: 96%;
+  margin-left: 20px;
+  border: 1px solid black;
+
+}
+hr{
+  border-color: black;
+}
+
 
 
 .left1 {
-  padding-left:50px;
+  padding-left:0px;
+  padding-right: 110px;
 }
 
 
 .img-fluid4 {
-  width: 780px;
-  height: 530px;
-  padding-right: 40px;
+  width: 450px;
+  height: 270px;
+  padding-left: 20px;
+  padding-top: 40px;
 }
 
 @media(max-width: 828px) {
@@ -149,7 +172,7 @@
   display: none;
 }
 .carousel-caption h2 {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 40px;
 }
 
@@ -192,5 +215,28 @@
 
 .identify {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 0px;
+  font-size: 20px;
+  color: rgb(2, 0, 0)  !important;
+  padding-top: 10px; 
+
+}
+
+.pH{
+  padding-top: 10px;
+  font-size: 14px;
+  width: 675px;
+}
+
+.pH2{
+  padding-top: 10px;
+  font-size: 14px;
+  width: 675px;
+  padding-right: 0px;
+}
+
+.disc{
+  list-style-type: disc !important  ;
+
+
 }

@@ -1,13 +1,16 @@
+.container{
+  background-color: #ffffff !important;
 
+}
    #about {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     margin-top:0px;
     padding-top: 0px;
   
   }
     
     #about-area {
-      background-color: #F9F9F9;
+      background-color: #ffffff !important;
       margin-top:0px;
     }
     
@@ -38,16 +41,7 @@
       list-style: none;
       padding-left: 0;
     }
-    
-    #about-list li {
-      line-height: 30px;
-    }
-    
-    #about-list i {
-      color: #00027c;
-      margin-right: 15px;
-    }
-    
+  
     .paragrafo{
         justify-content: flex-start;
         text-align:left;
@@ -56,8 +50,9 @@
     }
 
     .img-fluid{
-        height: 500px;
-        width: 750px;
+        height: 340px;
+        width: 250px;
+
 
     }
   .img-fluid2 {
@@ -107,4 +102,83 @@
         text-align:left;
         align-items: center;
 
+  }
+
+  .imgMission{
+    margin-left: 50px;
+  }
+
+  .titleMission{
+padding-left: 70px;
+font-weight: bold;
+font-size: 16px;
+
+  }
+
+  .mission{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    max-width: 200px;
+  }
+
+
+  span{
+    font-weight: bold;
+    color:black
+  }
+
+  .imgVision{
+    margin-left: 50px;
+  }
+
+  .titleVision{
+padding-left: 70px;
+font-weight: bold;
+font-size: 16px;
+
+  }
+
+  .vision{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    max-width: 200px;
+  }
+
+  .imgValues{
+    margin-left: 50px;
+  }
+
+  .titleValues{
+padding-left: 70px;
+font-weight: bold;
+font-size: 16px;
+
+  }
+
+  .values{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    max-width: 400px;
+  }
+  .imgRSA{
+    margin-left: 50px;
+  }
+
+  .titleRSA{
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+margin-left: 50px;
+margin-right: 50px;
+
+  }
+
+  .rsa{
+    font-size: 12px;
+    text-align: center;
+    max-width: 230px;
+    padding-left: 18px;
   }

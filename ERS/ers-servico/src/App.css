@@ -75,7 +75,6 @@ li {
 .header__middle__logo{
   width: 20%;
   display: inline-block;
-  float: left;
   padding-top: 0px;
 }
 
@@ -86,7 +85,6 @@ li {
 .header__middle__menus {
   width: 70%;
   display: inline-block;
-  float: left;
 }
 .menu-item.menu__qqqitem a{
   margin: 27px 10px;
@@ -94,7 +92,6 @@ li {
 .header__middle__search {
   width: 7%;
   display: inline-block;
-  float: right;
   padding: 36px 3px 27px 3px;
   border-left: 1px solid lavender;
 }
@@ -285,5 +282,5 @@ div.carousel-caption {
 }
 
 div.carousel.slide.carousel-fade {
-  height: 604px;
+  height: 620px;
 }
