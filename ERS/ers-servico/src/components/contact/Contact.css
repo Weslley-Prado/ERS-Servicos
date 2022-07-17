@@ -1,12 +1,12 @@
 .contactP {
-   max-width: 290px;
-   margin-left: 640px;
-  margin-top: 0;
+   margin-top: 10px;
+   height: 100px;
 }
 
 .contactP > h3{
    font-size: 14px;
    text-align: justify;
+   height: 12px;
 }
 
 .contactP > p{
@@ -15,6 +15,8 @@
 
 }
 .contactTitulo{
+   padding-top: 10px;
+
    text-align: center;
    font-size: 28px;
 }
@@ -107,4 +109,17 @@ width: 100%;
 
 .mapPrincipal{
    max-height: 400px;
+}
+.map{
+   margin-top: 10px;
+   padding-left: 0px;
+   width: 220px !important;
+   height: 310px !important;
+   margin-left: 380px;
+   padding-bottom: 30px;
+}
+
+.inst{
+   width: 35px;
+   height: 35px;
 }
