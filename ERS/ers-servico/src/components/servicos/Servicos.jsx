@@ -1,8 +1,5 @@
 import * as React from 'react';
-
-import { CNav } from '@coreui/react'
-import { CNavItem } from '@coreui/react'
-import { CNavLink } from '@coreui/react'
+import './Servicos.css'
 
 
 import { Link } from 'react-router-dom'
@@ -17,13 +14,12 @@ import { Link } from 'react-router-dom'
   return(
 
 
-<div className="tab">
 
 
-  <div class="container">
+  <div class="container Comum">
 
- 
-</div>
+  <h1 > This page is being developed</h1>
+
 </div>
 
   )
