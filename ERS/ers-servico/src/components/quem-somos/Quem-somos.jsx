@@ -1,6 +1,10 @@
 import React from "react";
 import Quemsomos1 from "../../assests/img/quemsomos1.jpeg";
 import Mission from "../../assests/img/mission-removebg-preview.png";
+import Vision from "../../assests/img/vision.png";
+import Values from "../../assests/img/values.png";
+import Rsa from "../../assests/img/rsa.png";
+
 
 import "./Quem-somos.css";
 
@@ -59,7 +63,7 @@ const About = () => {
             </p>
           </div>
           <div class="col-md-3">
-            <img class="imgVision" src={Mission} alt="ERS" />
+            <img class="imgVision" src={Vision} alt="ERS" />
             <h3 className="titleVision">Visão</h3>
             <p className="vision lead">
               Ser reconhecida no mercado pela excelência, com o compromisso
@@ -67,7 +71,7 @@ const About = () => {
             </p>
           </div>
           <div class="col-md-3">
-            <img class="imgValues" src={Mission} alt="ERS" />
+            <img class="imgValues" src={Values} alt="ERS" />
             <h3 className="titleValues">Valores</h3>
             <p className=" values lead">
               <span>Pessoas:</span> respeito e atenção total ao cliente e colegas de
@@ -78,7 +82,7 @@ const About = () => {
             </p>
           </div>
           <div class="col-md-3">
-            <img class="imgRSA" src={Mission} alt="ERS" />
+            <img class="imgRSA" src={Rsa} alt="ERS" />
             <h3 className="titleRSA">
               Responsabilidade Social e ambiental
             </h3>
