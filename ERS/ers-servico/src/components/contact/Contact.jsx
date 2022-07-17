@@ -1,99 +1,47 @@
-import './Contact.css'
-import React, { Component } from 'react'
-import axios from 'axios';
-import Contato from '../../assests/img/contato.jpg'
-import Mapa  from '../../map/Map';
-const API_PATH = 'https://ersservicos.com.br/php/index.php';
+import "./Contact.css";
+import React, { Component } from "react";
+import axios from "axios";
+import Contato from "../../assests/img/contato.jpg";
+import Mapa from "../../assests/img/mapa.png";
 
+const API_PATH = "https://ersservicos.com.br/php/index.php";
 
 export default class Contact extends Component {
+  render() {
+    return (
+      <sectio className="Formulario">
+        <img className="img-orcamento" src={Contato} alt="orcamento" />
+        <div className="Mapa">{/* <p> Contato</p> */}</div>
 
-
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            fname: '',
-            lname: '',
-            email: '',
-            message: '',
-            mailSent: false,
-            error: null
-        }
-
-    }
-    
-
-    handleFormSubmit = e => {
-        e.preventDefault();
-        axios({
-            method: 'post',
-            url: `${API_PATH}`,
-            headers: { 'content-type': 'application/json' },
-            data: this.state
-        })
-            .then(result => {
-                this.setState({
-                    mailSent: result.data.sent
-                })
-            })
-            .catch(error => this.setState({ error: error.message }));
-    };
-    render() {
-        return (
-            <sectio className="Formulario">
-
-                            <img className="img-orcamento" src={Contato} alt="orcamento"/> 
-                           <div className='Mapa'>
-                            {/* <p> Contato</p> */}
-                          
-                           
-                            </div> 
-
-            <div className="Form">
-
-                <h3 className='contactTitulo'> Deixe sua mensagem aqui</h3>
-
-                <div>
-                    <form action="/action_page.php">
-                        <label>Nome</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Nome.."
-                            value={this.state.fname}
-                            onChange={e => this.setState({ fname: e.target.value })} />
-                        <label>Sobrenome</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Sobrenome.."
-                            value={this.state.lname}
-                            onChange={e => this.setState({ lname: e.target.value })} />
-
-
-                        <label>E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="E-mail"
-                            value={this.state.email}
-                            onChange={e => this.setState({ email: e.target.value })} />
-
-
-                        <label>Mensagem</label>
-                        <textarea id="subject" name="subject" placeholder="Escreva sua mensagem.."
-                            onChange={e => this.setState({ message: e.target.value })}
-                            value={this.state.message}></textarea>
-                        <input type="submit" onClick={e => this.handleFormSubmit(e)} value="Enviar" />
-                        <div>
-                            {this.state.mailSent &&
-                                <div>Obrigado por sua mensagem, em breve retornaremos.</div>
-                            }
-                        </div>
-
-                
-                    </form>
-
-                    
-                </div>              
-           
-
-            </div>
-
-            <Mapa  />
-            </sectio>
-        );
-    }
+        <div className="Form">
+          <h3 className="contactTitulo lead">
+            Entre em contato conosco de acordo com a sua necessidade
+          </h3>
+          <div class="row2">
+          <div class="col-md-12 mapPrincipal ">
+          <div class="col-md-6 mapaDiv">
+            <img class="mapa " src={Mapa} alt="Politica" />
+          </div>
+          <div class="col-md-2 lead contactP left0">
+            <h3>Recursos Humanos</h3>
+            <p className="lead">(11) 91216-7623</p>
+            <h3>Escritório</h3>
+            <p className="lead" >(11) 3596-5101</p>
+            <h3>Comercial</h3>
+            <p className="lead">(11) 94727-0702</p>
+            <h3>Demais assuntos</h3>
+            <p className="lead" >contato@ersservicos.com.br</p>
+            <h3>Localização</h3>
+            <p className="lead">
+              Rua Padre Clemente Segura, 548 - São Paulo - SP / <br /> Bairro Limoeiro
+              CEP: 08051-040
+            </p>
+          </div>
+        
+          </div>
+          </div>
+        </div>
+      </sectio>
+    );
+  }
 }

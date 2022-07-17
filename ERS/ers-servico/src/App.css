@@ -55,7 +55,7 @@ ul.main-menu>li.menu-item:first-child {
   margin-left: 0;
 }
 .menu-item {
-  line-height: 23px;
+  line-height: 3px;
 }
 li {
   list-style-type: none;
@@ -74,16 +74,12 @@ li {
 }
 .header__middle__logo{
   width: 20%;
-  display: inline-block;
+  display:block;
   padding-top: 0px;
 }
 
-.header__middle__logo  img{
-  width: 150px;
-  height: 100px;
-}
 .header__middle__menus {
-  width: 70%;
+  width: 0%;
   display: inline-block;
 }
 .menu-item.menu__qqqitem a{
@@ -119,7 +115,7 @@ li {
   color: #ff1800;
 }
 .sub__menus__arrows{
-  position: relative;
+  position: block;
 }
 .sub__menus__arrows svg, .sub__menus__arrows__full svg{
   padding-top: 0px;
@@ -127,15 +123,11 @@ li {
   top: 13px;
 }
 .sub__menus {
-  position: absolute;
+  position: relative;
   display: none;
   background: rgb(222, 224, 222);
-  border: 1px solid lavender;
   width: 227px;
   left: -17px;
-  padding: 2px 0 0 0;
-  z-index: 1000;
-  box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
 }
 
 @media (max-width:767px) { 
@@ -163,10 +155,6 @@ li {
   color: #07a8ff !important;
 }
 
-.header__middle__logo img{
-  max-width: 207px;
-  margin: 17px 0 0 0;
-}
 
 
 @media(max-width:991px){
@@ -185,7 +173,7 @@ li {
   margin: 27px auto 0;
   cursor: pointer;
   position: relative;
-  z-index: 10037;
+  z-index: 1;
 }
 .main-nav .menubar__button svg{font-size: 27px;}
 .main-nav ul.menuq2 {
