@@ -77,7 +77,7 @@ export default function Navbar() {
            isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
          }
        >
-         <ul>
+         <ul className='ul'>
            <li>
              <Link to="/" className="menuStyle" onClick={() => {
            setIsNavExpanded(!isNavExpanded)
@@ -91,17 +91,22 @@ export default function Navbar() {
             <i className="fa fa-building"></i> Quem somos
            </Link>
            </li>
-           <li onClick={toggleSubmenu} className="sub__menus__arrows" >           <Link to="/servicos" className="menuStyle" onClick={() => {
+           
+           <li onClick={toggleSubmenu} className=" menu sub__menus__arrows" >           <Link to="/servicos" className="menuStyle" onClick={() => {
            setIsNavExpanded(!isNavExpanded)
          }}>
             <i className="fa fa-briefcase"  onClick={() => {
            setIsNavExpanded(!isNavExpanded)
          }}></i> Serviços <FiChevronDown /> 
           </Link>  
-          {/* <ul className={boxClassSubMenu.join('')} > 
+          <ul className={boxClassSubMenu.join('')}  > 
+                            <li className=''> <NavLink onClick={toggleClass}   to={`/Online`}> Mármore </NavLink> </li>
+                            <li><NavLink onClick={toggleClass}  to={`/Offline`}>  Granito </NavLink> </li>
                             <li> <NavLink onClick={toggleClass}   to={`/Online`}> Mármore </NavLink> </li>
                             <li><NavLink onClick={toggleClass}  to={`/Offline`}>  Granito </NavLink> </li>
-                        </ul> */}
+                            <li> <NavLink onClick={toggleClass}   to={`/Online`}> Mármore </NavLink> </li>
+                            <li><NavLink onClick={toggleClass}  to={`/Offline`}>  Granito </NavLink> </li>
+          </ul>
           </li>
           <li>
           <a href="https://vagas.ersservicos.com.br/jobs" className="menuStyle" onClick={() => {
@@ -110,23 +115,18 @@ export default function Navbar() {
           <i class="fa fa-users" aria-hidden="true"></i> Trabalhe conosco
             </a>
           </li>
-          <li>
           
-
-
-          <Link to="/orcamento" className="menuStyle" onClick={() => {
+          <li onClick={toggleSubmenu} className=" menu sub__menus__arrows" >           <Link to="/servicos" className="menuStyle" onClick={() => {
            setIsNavExpanded(!isNavExpanded)
          }}>
-          <i className="fa fa-handshake-o" ></i>  Orçamento
-            </Link>        
-                      
-          </li>
-          <li>
-          <Link to="/contato" className="menuStyle" onClick={() => {
-           setIsNavExpanded(!isNavExpanded)
-         }}>
-           <i className="fa fa-envelope" ></i> Contato
-            </Link>           
+            
+           <i className="fa fa-envelope" ></i>Contato <FiChevronDown /> 
+          </Link>  
+          <ul className={boxClassSubMenu.join('')}  > 
+                            <li className=''> <NavLink onClick={toggleClass}   to={`/Online`}> Orçamento </NavLink> </li>
+                            <li><NavLink onClick={toggleClass}  to={`/contato`}>  Contato </NavLink> </li>
+                            
+          </ul>             
                       
           </li>
          </ul>
