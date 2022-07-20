@@ -100,12 +100,12 @@ export default function Navbar() {
          }}></i> Serviços <FiChevronDown /> 
           </Link>  
           <ul className={boxClassSubMenu.join('')}  > 
-                            <li className=''> <NavLink onClick={toggleClass}   to={`/Online`}> Mármore </NavLink> </li>
-                            <li><NavLink onClick={toggleClass}  to={`/Offline`}>  Granito </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass}   to={`/Online`}> Mármore </NavLink> </li>
-                            <li><NavLink onClick={toggleClass}  to={`/Offline`}>  Granito </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass}   to={`/Online`}> Mármore </NavLink> </li>
-                            <li><NavLink onClick={toggleClass}  to={`/Offline`}>  Granito </NavLink> </li>
+                            <li className=''> <NavLink onClick={toggleClass}   to={`/inspecao`}> • Inspeção e seleção </NavLink> </li>
+                            <li><NavLink onClick={toggleClass}  to={`/logistica`}>  • Interação logística </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass}   to={`/retrabalho`}> • Retrabalho </NavLink> </li>
+                            <li><NavLink onClick={toggleClass}  to={`/embarque`}>  • Embarque controlado NV I e II </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass}   to={`/terceirizacao`}> • Terceirização de mão de obra </NavLink> </li>
+                            <li><NavLink onClick={toggleClass}  to={`/residente`}>  • Residente técnico </NavLink> </li>
           </ul>
           </li>
           <li>
@@ -123,7 +123,7 @@ export default function Navbar() {
            <i className="fa fa-envelope" ></i>Contato <FiChevronDown /> 
           </Link>  
           <ul className={boxClassSubMenu.join('')}  > 
-                            <li className=''> <NavLink onClick={toggleClass}   to={`/Online`}> Orçamento </NavLink> </li>
+                            <li className=''> <NavLink onClick={toggleClass}   to={`/orcamento`}> Orçamento </NavLink> </li>
                             <li><NavLink onClick={toggleClass}  to={`/contato`}>  Contato </NavLink> </li>
                             
           </ul>             
