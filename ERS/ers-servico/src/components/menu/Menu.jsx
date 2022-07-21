@@ -100,8 +100,8 @@ export default function Navbar() {
          }}></i> Serviços <FiChevronDown /> 
           </Link>  
           <ul className={boxClassSubMenu.join('')}  > 
-                            <li className=''> <NavLink onClick={toggleClass}   to={`/inspecao`}> • Inspeção e seleção </NavLink> </li>
-                            <li><NavLink onClick={toggleClass}  to={`/logistica`}>  • Interação logística </NavLink> </li>
+                            <li className=''> <NavLink onClick={toggleClass}   to={`/inspect`}> • Inspeção e seleção </NavLink> </li>
+                            <li><NavLink onClick={toggleClass}  to={`/interacao`}>  • Interação logística </NavLink> </li>
                             <li> <NavLink onClick={toggleClass}   to={`/retrabalho`}> • Retrabalho </NavLink> </li>
                             <li><NavLink onClick={toggleClass}  to={`/embarque`}>  • Embarque controlado NV I e II </NavLink> </li>
                             <li> <NavLink onClick={toggleClass}   to={`/terceirizacao`}> • Terceirização de mão de obra </NavLink> </li>
